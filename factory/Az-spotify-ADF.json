@@ -1,0 +1,9 @@
+{
+	"name": "Az-spotify-ADF",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "99539c53-5254-4a70-9edb-c23c598f4ff6",
+		"tenantId": "7ee55f00-7340-4b41-a932-548d2a61e347"
+	}
+}
