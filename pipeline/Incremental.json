@@ -133,6 +133,8 @@
 			{
 				"name": "watermark_column",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -217,7 +219,7 @@
 				},
 				"userProperties": [],
 				"linkedServiceName": {
-					"referenceName": "AzureSqlDatabase1",
+					"referenceName": "AzureSqlDatabase2",
 					"type": "LinkedServiceReference"
 				},
 				"typeProperties": {
