@@ -147,7 +147,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@greater(activity('AzureSQLtoDelta').outpu.dataRead, 0)",
+						"value": "@greater(activity('AzureSQLtoDelta').output.dataRead, 0)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
