@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Az-spotify-ADF"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "hercules-99.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "spotifyDB"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "hercules999"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "hercules-99.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "spotifyDB"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "hercules999"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://azurespotify99.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
