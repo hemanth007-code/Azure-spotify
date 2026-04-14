@@ -1,0 +1,9 @@
+{
+	"name": "azdfspotify",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7b709766-55d3-49cf-9a06-b753c4aa1d67",
+		"tenantId": "c3d66b69-1aa8-41f3-813f-e23450a42ac9"
+	}
+}
